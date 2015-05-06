@@ -1,0 +1,26 @@
+.dish-card {
+  clear: both;
+  border-bottom: 1px $borders solid;
+  display: block;
+  line-height: 40px;
+  padding: 5px;
+  vertical-align: middle;
+  width: 320px;
+  
+  &__name {}
+  
+  &__price {
+    font-weight: bold;
+  }
+  
+  &__quantity {
+    float: right;
+    margin-right: 10px;
+    font-style: italic;
+  }
+  
+  &__action {
+    float: right;
+    margin: 8px 5px 0 0;
+  }
+}

@@ -1,0 +1,11 @@
+fit-basket {
+  .basket {
+    &__title {
+      font-size: 14px;
+    }
+    
+    &__items {
+      background-color: $borders;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+<div class="basket component">
+  <h2 class="basket__title">Basket</h2>
+ 
+  <ul class="basket__items">
+    <li
+      class="basket__item dish-card"
+      ng-repeat="item in vm.basketItems"
+    >
+      <span class="dish-card__name">{{ item.name  }}</span>
+      <span class="dish-card__price">{{ item.price | currency:"£":2 }}</span>
+      
+      <button
+        class="dish-card__action button--add"
+        ng-click="vm.addItem(item)"
+      ></button>
+      
+      <button
+        class="dish-card__action button--remove"
+        ng-click="vm.removeItem(item)"
+      ></button>
+      
+      <span class="dish-card__quantity">{{ item.quantity }}</span>
+    </li>
+  </ul>
+  
+  <span class="basket__total">
+    Total: {{ vm.total | currency:"£":2 }}
+  </span>
+</div>

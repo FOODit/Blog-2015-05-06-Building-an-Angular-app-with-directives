@@ -1,0 +1,20 @@
+<section class="menu component">
+  <h1 class="menu__title">
+    Menu
+  </h1>
+  
+  <ul class="menu__items">
+    <li
+      class="menu__item dish-card"
+      ng-repeat="dish in menu"
+    >
+      <span class="dish-card__name">{{ dish.name  }}</span>
+      <span class="dish-card__price">{{ dish.price | currency:"£":2 }}</span>
+      
+      <button
+        class="dish-card__action button--add"
+        ng-click="vm.addToBasket(dish)"
+      ></button>
+    </li>
+  </ul>
+</section>

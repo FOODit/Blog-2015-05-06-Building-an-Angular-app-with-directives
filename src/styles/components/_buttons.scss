@@ -1,0 +1,36 @@
+%button {
+  background-color: $key;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  height: 20px;
+  transition: background-color .3s ease;
+  width: 20px;
+  
+  &:hover {
+    background-color: $key-light;
+  }
+  
+  &:active {
+    background-color: $highlight;
+  }
+}
+
+.button {
+  &--add {
+    @extend %button;
+    
+    &:before {
+      content: '+';
+    }
+  }
+  
+  &--remove {
+    @extend %button;
+    
+    &:before {
+      content: '-';
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "554256a4bee5ca6fcb5a1f1d",
+    "price": 17.80,
+    "name": "Doughnut"
+  },
+  {
+    "id": "554256a4c4ffe20c82a9dfa9",
+    "price": 16.54,
+    "name": "Reestit mutton"
+  },
+  {
+    "id": "554256a4d32f0ab392398977",
+    "price": 15.13,
+    "name": "Fish and Chips"
+  },
+  {
+    "id": "554256a40ebfb4f45e6a8cd9",
+    "price": 10.73,
+    "name": "Yorkshire pudding"
+  },
+  {
+    "id": "554256a4b506b197028c986c",
+    "price": 17.68,
+    "name": "Mince pies"
+  },
+  {
+    "id": "554256a4c849ead45e44d36a",
+    "price": 17.81,
+    "name": "Fillet steak"
+  },
+  {
+    "id": "554256a4ee0c400085d7817e",
+    "price": 13.16,
+    "name": "Bacon cheeseburger"
+  }
+]

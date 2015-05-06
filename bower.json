@@ -1,0 +1,30 @@
+{
+  "name": "FOODit-AngularApp",
+  "version": "1.0.0",
+  "authors": [
+    "claudia @ FOODit"
+  ],
+  "description": "A sample app to demonstrate a structure based on AngularJS directives.",
+  "keywords": [
+    "angular",
+    "directives",
+    "food"
+  ],
+  "license": "MIT",
+  "homepage": "http://foodit.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "angular-mocks": "~1.3.15",
+    "angular-animate": "~1.3.15",
+    "angular-sanitize": "~1.3.15",
+    "ui-router": "~0.2.14",
+    "lodash": "~3.7.0"
+  }
+}

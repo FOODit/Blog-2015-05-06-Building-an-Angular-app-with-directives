@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="angularApp">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="fragment" content="!">
+
+    <title>FOODit AngularApp</title>
+
+    <!-- bower:css -->
+    <!-- endbower -->
+
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <base href="/">
+  </head>
+
+  <body>
+    <div ui-view="header"></div>
+    <div ui-view="content"></div>
+
+    <!-- bower:js -->
+    <!-- endbower -->
+
+    <!-- Application base -->
+    <script src="/app.module.js"></script>
+    <script src="/app.routes.js"></script>
+
+    <!-- Modules -->
+    <!-- include: "type": "js", "baseUrl": "/", "basePath": "src/", "files": ["{common,components,pages}/**/*.module.js"] -->
+    <!-- /include -->
+
+    <!-- Other app files -->
+    <!-- include: "type": "js", "baseUrl": "/", "basePath": "src/", "files": ["{common,components,pages}/**/*.*.js", "!**/*.{module,test}.js"] -->
+    <!-- /include -->
+  </body>
+
+</html>
