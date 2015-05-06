@@ -2,6 +2,8 @@
 
 A simple angular project, to demonstrate how we leveraged the power of Angular directives to organise a web application.
 
+Find the full post at [FOODit's Medium](https://medium.com/devs-foodit/building-an-angular-app-with-directives-cd27f55be3a4).
+
 ## Generating a module
 
     grunt buildModule:common:moduleName
